@@ -4,7 +4,7 @@
 ![Latest Version](https://img.shields.io/badge/latestVersion-1.0-yellow) ![Java](https://img.shields.io/badge/language-java-blue) ![Minimum SDK Version](https://img.shields.io/badge/minSDK-21-orange)
 
 ## Used Technologies
-- In this project, I developed a simple AR image application from using Huawei AR Engine. I did my development with Java in Android Studio. I created a folder called rendering and added the classes I use for image rendering.
+In this project, I developed a simple AR image application from using Huawei AR Engine. I did my development with Java in Android Studio. I created a folder called rendering and added the classes I use for image rendering.
 
 - BackgroundRenderer: This class background texture is used for background texture rendering. 
 - DisplayRotationHelper: This class listens for image changes and makes the necessary adjustments. 
@@ -13,9 +13,8 @@
 - We use our CameraPermissionHelper class for camera permission. 
 - MainActivity must implement the GLSurfaceView.Renderer interface. 
 - We use shaders for background and object. There are two types of shaders in this project: Vertex Shader and Fragment Shader. 
-    Vertex Shader converts shape positions to 3D drawing coordinates. 
-    Fragment Shader calculates renderings of a shape's colors and other attributes.
-    You can add them to the raw folder in the res folder.
+    - Vertex Shader converts shape positions to 3D drawing coordinates. 
+    - Fragment Shader calculates renderings of a shape's colors and other attributes. You can add them to the raw folder in the res folder.
 
 ## Clone the Repository
 
